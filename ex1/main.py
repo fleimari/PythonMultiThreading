@@ -21,3 +21,5 @@ def helloWorld(i):
 for i in range(4):
     thread = threading.Thread(target=helloWorld, args=(i,))
     thread.start()
+
+print("Completed!")
